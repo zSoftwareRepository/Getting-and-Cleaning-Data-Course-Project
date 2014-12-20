@@ -40,15 +40,15 @@ and the mean was calculated by group of variables.
 * "ActLabeled"
 	Text describing the activity:
 	
-	WALKING
-	WALKING_UPSTAIRS
-	WALKING_DOWNSTAIRS
-	SITTING
-	STANDING
-	LAYING
+	* WALKING
+	* ALKING_UPSTAIRS
+	* WALKING_DOWNSTAIRS
+	* SITTING
+	* STANDING
+	* LAYING
 
 * "tBodyAcc-mean()-X"
-	mean of the original variable, normalized real number. Range: between -1 and 1
+ 	mean of the original variable, normalized real number. Range: between -1 and 1
 	
 * "tBodyAcc-mean()-Y"
 	mean of the original variable, normalized real number. Range: between -1 and 1
