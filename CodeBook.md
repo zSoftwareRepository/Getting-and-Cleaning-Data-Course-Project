@@ -1,12 +1,12 @@
-Data Dictionary
-===============
-Coursera:
-Getting and Cleaning Data Course Project
-Jorge Palma
+##Data Dictionary
+##===============
+###Coursera:
+###Getting and Cleaning Data Course Project
+###Jorge Palma
 
-Feature Selection 
-=================
-The following paragraphs was taken from the original data set dictionary:
+##Feature Selection 
+##=================
+The following paragraphs were taken from the original data set dictionary:
  
 The features selected for this database come from the accelerometer and gyroscope 3-axial 
 raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) 
@@ -34,10 +34,10 @@ that group the data set.
 Each of the variables was grouped by the subject ("subject") and the activity label ("ActLabeled")
 and the mean was calculated by group of variables.
 
-"subject"
+*"subject"
 	integer number between 1 and 30
 	
-"ActLabeled"
+*"ActLabeled"
 	Text describing the activity:
 	
 	WALKING
@@ -47,200 +47,200 @@ and the mean was calculated by group of variables.
 	STANDING
 	LAYING
 
-"tBodyAcc-mean()-X"
+*"tBodyAcc-mean()-X"
 	mean of the original variable, normalized real number. Range: between -1 and 1
 	
-"tBodyAcc-mean()-Y"
+*"tBodyAcc-mean()-Y"
 	mean of the original variable, normalized real number. Range: between -1 and 1
 
-"tBodyAcc-mean()-Z"
+*"tBodyAcc-mean()-Z"
 	mean of the original variable, normalized real number. Range: between -1 and 1
 	
-"tBodyAcc-std()-X"
+*"tBodyAcc-std()-X"
 	mean of the original variable, normalized real number. Range: between -1 and 1
 	
-"tBodyAcc-std()-Y"
+*"tBodyAcc-std()-Y"
 	mean of the original variable, normalized real number. Range: between -1 and 1
 	
-"tBodyAcc-std()-Z"
+*"tBodyAcc-std()-Z"
 	mean of the original variable, normalized real number. Range: between -1 and 1
 	
-"tGravityAcc-mean()-X"
+*"tGravityAcc-mean()-X"
 	mean of the original variable, normalized real number. Range: between -1 and 1
 	
-"tGravityAcc-mean()-Y"
+*"tGravityAcc-mean()-Y"
 	mean of the original variable, normalized real number. Range: between -1 and 1
 	
-"tGravityAcc-mean()-Z"
+*"tGravityAcc-mean()-Z"
 	mean of the original variable, normalized real number. Range: between -1 and 1
 	
-"tGravityAcc-std()-X"
+*"tGravityAcc-std()-X"
 	mean of the original variable, normalized real number. Range: between -1 and 1
 	
-"tGravityAcc-std()-Y"
+*"tGravityAcc-std()-Y"
 	mean of the original variable, normalized real number. Range: between -1 and 1
 	
-"tGravityAcc-std()-Z"
+*"tGravityAcc-std()-Z"
 	mean of the original variable, normalized real number. Range: between -1 and 1
 	
-"tBodyAccJerk-mean()-X"
+*"tBodyAccJerk-mean()-X"
 	mean of the original variable, normalized real number. Range: between -1 and 1
 	
-"tBodyAccJerk-mean()-Y"
+*"tBodyAccJerk-mean()-Y"
 	mean of the original variable, normalized real number. Range: between -1 and 1
 	
-"tBodyAccJerk-mean()-Z"
+*"tBodyAccJerk-mean()-Z"
 	mean of the original variable, normalized real number. Range: between -1 and 1
 	
-"tBodyAccJerk-std()-X"
+*"tBodyAccJerk-std()-X"
 	mean of the original variable, normalized real number. Range: between -1 and 1
 	
-"tBodyAccJerk-std()-Y"
+*"tBodyAccJerk-std()-Y"
 	mean of the original variable, normalized real number. Range: between -1 and 1
 	
-"tBodyAccJerk-std()-Z"
+*"tBodyAccJerk-std()-Z"
 	mean of the original variable, normalized real number. Range: between -1 and 1
 	
-"tBodyGyro-mean()-X"
+*"tBodyGyro-mean()-X"
 	mean of the original variable, normalized real number. Range: between -1 and 1
 	
-"tBodyGyro-mean()-Y"
+*"tBodyGyro-mean()-Y"
 	mean of the original variable, normalized real number. Range: between -1 and 1
 	
-"tBodyGyro-mean()-Z"
+*"tBodyGyro-mean()-Z"
 	mean of the original variable, normalized real number. Range: between -1 and 1
 	
-"tBodyGyro-std()-X"
+*"tBodyGyro-std()-X"
 	mean of the original variable, normalized real number. Range: between -1 and 1
 	
-"tBodyGyro-std()-Y"
+*"tBodyGyro-std()-Y"
 	mean of the original variable, normalized real number. Range: between -1 and 1
 	
-"tBodyGyro-std()-Z"
+*"tBodyGyro-std()-Z"
 	mean of the original variable, normalized real number. Range: between -1 and 1
 	
-"tBodyGyroJerk-mean()-X"
+*"tBodyGyroJerk-mean()-X"
 	mean of the original variable, normalized real number. Range: between -1 and 1
 	
-"tBodyGyroJerk-mean()-Y"
+*"tBodyGyroJerk-mean()-Y"
 	mean of the original variable, normalized real number. Range: between -1 and 1
 	
-"tBodyGyroJerk-mean()-Z"
+*"tBodyGyroJerk-mean()-Z"
 	mean of the original variable, normalized real number. Range: between -1 and 1
 	
-"tBodyGyroJerk-std()-X"
+*"tBodyGyroJerk-std()-X"
 	mean of the original variable, normalized real number. Range: between -1 and 1
 	
-"tBodyGyroJerk-std()-Y"
+*"tBodyGyroJerk-std()-Y"
 	mean of the original variable, normalized real number. Range: between -1 and 1
 	
-"tBodyGyroJerk-std()-Z"
+*"tBodyGyroJerk-std()-Z"
 	mean of the original variable, normalized real number. Range: between -1 and 1
 	
-"tBodyAccMag-mean()"
+*"tBodyAccMag-mean()"
 	mean of the original variable, normalized real number. Range: between -1 and 1
 	
-"tBodyAccMag-std()"
+*"tBodyAccMag-std()"
 	mean of the original variable, normalized real number. Range: between -1 and 1
 	
-"tGravityAccMag-mean()"
+*"tGravityAccMag-mean()"
 	mean of the original variable, normalized real number. Range: between -1 and 1
 	
-"tGravityAccMag-std()"
+*"tGravityAccMag-std()"
 	mean of the original variable, normalized real number. Range: between -1 and 1
 	
-"tBodyAccJerkMag-mean()"
+*"tBodyAccJerkMag-mean()"
 	mean of the original variable, normalized real number. Range: between -1 and 1
 	
-"tBodyAccJerkMag-std()"
+*"tBodyAccJerkMag-std()"
 	mean of the original variable, normalized real number. Range: between -1 and 1
 	
-"tBodyGyroMag-mean()"
+*"tBodyGyroMag-mean()"
 	mean of the original variable, normalized real number. Range: between -1 and 1
 	
-"tBodyGyroMag-std()"
+*"tBodyGyroMag-std()"
 	mean of the original variable, normalized real number. Range: between -1 and 1
 	
-"tBodyGyroJerkMag-mean()"
+*"tBodyGyroJerkMag-mean()"
 	mean of the original variable, normalized real number. Range: between -1 and 1
 	
-"tBodyGyroJerkMag-std()"
+*"tBodyGyroJerkMag-std()"
 	mean of the original variable, normalized real number. Range: between -1 and 1
 	
-"fBodyAcc-mean()-X"
+*"fBodyAcc-mean()-X"
 	mean of the original variable, normalized real number. Range: between -1 and 1
 	
-"fBodyAcc-mean()-Y"
+*"fBodyAcc-mean()-Y"
 	mean of the original variable, normalized real number. Range: between -1 and 1
 	
-"fBodyAcc-mean()-Z"
+*"fBodyAcc-mean()-Z"
 	mean of the original variable, normalized real number. Range: between -1 and 1
 	
-"fBodyAcc-std()-X"
+*"fBodyAcc-std()-X"
 	mean of the original variable, normalized real number. Range: between -1 and 1
 	
-"fBodyAcc-std()-Y"
+*"fBodyAcc-std()-Y"
 	mean of the original variable, normalized real number. Range: between -1 and 1
 	
-"fBodyAcc-std()-Z"
+*"fBodyAcc-std()-Z"
 	mean of the original variable, normalized real number. Range: between -1 and 1
 	
-"fBodyAccJerk-mean()-X"
+*"fBodyAccJerk-mean()-X"
 	mean of the original variable, normalized real number. Range: between -1 and 1
 	
-"fBodyAccJerk-mean()-Y"
+*"fBodyAccJerk-mean()-Y"
 	mean of the original variable, normalized real number. Range: between -1 and 1
 	
-"fBodyAccJerk-mean()-Z"
+*"fBodyAccJerk-mean()-Z"
 	mean of the original variable, normalized real number. Range: between -1 and 1
 	
-"fBodyAccJerk-std()-X"
+*"fBodyAccJerk-std()-X"
 	mean of the original variable, normalized real number. Range: between -1 and 1
 	
-"fBodyAccJerk-std()-Y"
+*"fBodyAccJerk-std()-Y"
 	mean of the original variable, normalized real number. Range: between -1 and 1
 	
-"fBodyAccJerk-std()-Z"
+*"fBodyAccJerk-std()-Z"
 	mean of the original variable, normalized real number. Range: between -1 and 1
 	
-"fBodyGyro-mean()-X"
+*"fBodyGyro-mean()-X"
 	mean of the original variable, normalized real number. Range: between -1 and 1
 	
-"fBodyGyro-mean()-Y"
+*"fBodyGyro-mean()-Y"
 	mean of the original variable, normalized real number. Range: between -1 and 1
 	
-"fBodyGyro-mean()-Z"
+*"fBodyGyro-mean()-Z"
 	mean of the original variable, normalized real number. Range: between -1 and 1
 	
-"fBodyGyro-std()-X"
+*"fBodyGyro-std()-X"
 	mean of the original variable, normalized real number. Range: between -1 and 1
 	
-"fBodyGyro-std()-Y"
+*"fBodyGyro-std()-Y"
 	mean of the original variable, normalized real number. Range: between -1 and 1
 	
-"fBodyGyro-std()-Z"
+*"fBodyGyro-std()-Z"
 	mean of the original variable, normalized real number. Range: between -1 and 1
 	
-"fBodyAccMag-mean()"
+*"fBodyAccMag-mean()"
 	mean of the original variable, normalized real number. Range: between -1 and 1
 	
-"fBodyAccMag-std()"
+*"fBodyAccMag-std()"
 	mean of the original variable, normalized real number. Range: between -1 and 1
 	
-"fBodyBodyAccJerkMag-mean()"
+*"fBodyBodyAccJerkMag-mean()"
 	mean of the original variable, normalized real number. Range: between -1 and 1
 	
-"fBodyBodyAccJerkMag-std()"
+*"fBodyBodyAccJerkMag-std()"
 	mean of the original variable, normalized real number. Range: between -1 and 1
 	
-"fBodyBodyGyroMag-mean()"
+*"fBodyBodyGyroMag-mean()"
 	mean of the original variable, normalized real number. Range: between -1 and 1
 	
-"fBodyBodyGyroMag-std()"
+*"fBodyBodyGyroMag-std()"
 	mean of the original variable, normalized real number. Range: between -1 and 1
 	
-"fBodyBodyGyroJerkMag-mean()"
+*"fBodyBodyGyroJerkMag-mean()"
 	mean of the original variable, normalized real number. Range: between -1 and 1
 	
-"fBodyBodyGyroJerkMag-std()"
+*"fBodyBodyGyroJerkMag-std()"
 	mean of the original variable, normalized real number. Range: between -1 and 1

@@ -61,10 +61,11 @@ ds.activities <- cbind(ds.activities,seq(len=ds.len))
 colnames(ds.activities) <- c("ActId","order")
 
 # Merge Activities ID with the Activities Label
-# and keep th eoriginal order to be cbind with the one deta set
+# and keep the original order to be cbind with the one deta set
 #
 LabeledActivities <- merge(ds.activities,ActLabels,by="ActId")
 
+# Return the activities to the original order
 LabeledActivities <- LabeledActivities[with(LabeledActivities,order(order)),]
 
 
@@ -98,6 +99,9 @@ mtds <- melt(TidyDataSet, id=c("subject","ActLabeled"))
 
 dcast_tds <- dcast(mtds, subject + ActLabeled ~ variable, mean)
 
+
+# Write the tydi data set
+#
 write.table(dcast_tds,"tidydataset.txt",row.name=FALSE )
 #
 #
